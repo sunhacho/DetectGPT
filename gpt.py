@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from transformers import pipeline, DistilBertTokenizerFast, DistilBertForSequenceClassification
 from fastapi.templating import Jinja2Templates
 
-# FastAPI 애플리케이션 생성 
+# FastAPI 애플리케이션 생성
 app = FastAPI()
 
 # Jinja2 템플릿 디렉터리 설정
