@@ -40,3 +40,41 @@ DistilKobert 활용
 
   각 문장의 길이를 단어 개수로 측정
 
+## 모델링 결과
+
+### precision ( TP / TP + FP )
+
+인간이 작성한 텍스트라고 예측한 데이터 중 실제로 인간이 작성한 텍스트인 비율 : 0.87
+
+ChatGPT라고 예측한 데이터 중 실제로 ChatGPT인 비율 : 0.87
+
+### recall ( TP / TP + FN )
+
+실제 인간이 작성한 텍스트인 데이터( TP+FN )들 중 인간이 작성한 텍스트이라고 예측한 비율 : 0.90
+
+실제 ChatGPT인 데이터 ( TP+FN )들 중 ChatGPT라고 예측한 비율 : 0.84
+
+### accuracy : 0.87 → 87%
+
+
+## 웹 애플리케이션 서빙
+### FastAPI를 활용하여 웹 애플리케이션 서빙
+텍스트를 문장 단위로 나누고, 각 문장을 모델에 입력해 개별적인 예측 결과를 생성한 뒤,
+최빈값과 평균 점수를 기반으로 텍스트(문단) 전체의 최종 결과를 결정
+
+개별 문장을 파악한 후, 전체 문단의 전반적인 경향을 종합하여 더 신뢰도 높은 최종 결과를 도출하여 문맥적 일관성과 문장 간의 연결성까지 고려함
+
+## 최종 웹 페이지 구성
+
+### 시작 화면
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/41e1ebf8-ae6d-48c5-b990-9a84d75fe9ed" />
+
+### 메인 화면
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/39094c0f-244c-488e-82a0-c0d56ec0ef75" />
+
+### 탐지 화면
+<img width="493" alt="image" src="https://github.com/user-attachments/assets/024c8950-1373-4f76-981a-2e624f1250d8" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/f1574329-f95a-4a78-9f0b-8607a588a4d3" />
+
+
+
