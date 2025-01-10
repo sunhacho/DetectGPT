@@ -1,4 +1,4 @@
-# <DetectGPT>
+# DetectGPT
 ## 프로젝트 소개
 DetectGPT는 ChatGPT가 생성한 텍스트를 탐지하는 웹 애플리케이션
 
