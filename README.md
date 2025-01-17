@@ -68,14 +68,12 @@ ChatGPT라고 예측한 데이터 중 실제로 ChatGPT인 비율 : 0.87
 ## 최종 웹 페이지 구성
 
 ### 시작 화면
-<img width="589" alt="image" src="https://github.com/user-attachments/assets/41e1ebf8-ae6d-48c5-b990-9a84d75fe9ed" />
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/414443df-54c3-4526-a5e5-21a4208896a1" />
 
 ### 메인 화면
-<img width="589" alt="image" src="https://github.com/user-attachments/assets/39094c0f-244c-488e-82a0-c0d56ec0ef75" />
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/9995dcfa-d1f1-4c19-9398-9879eebcf4ab" />
 
 ### 탐지 화면
-<img width="394" alt="image" src="https://github.com/user-attachments/assets/024c8950-1373-4f76-981a-2e624f1250d8" />
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/f1574329-f95a-4a78-9f0b-8607a588a4d3" />
-
-
+<img width="394" alt="image" src="https://github.com/user-attachments/assets/47b456e2-11e4-42a1-afe6-fdaec9fddf92" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/a89ad2dc-0562-4de5-a677-b4acd3db558c" />
 
